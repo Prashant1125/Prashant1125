@@ -1,125 +1,207 @@
-<div align="center"><a href="https://prashant-s-portfolio-six.vercel.app/">
-  <img src="assets/hero.svg" alt="Prashant Kushwaha — Flutter Developer. Click to visit my portfolio." width="100%" />
+<!--
+  Profile README
+  Repository name must be exactly: Prashant1125
+  Replace any TODO placeholders before publishing.
+-->
+
+<div align="center">
+
+<img src="assets/hero.svg" alt="Prashant Kushwaha — Flutter Developer" width="100%" />
+
+<br/>
+
+<a href="https://github.com/Prashant1125">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=55D6BE&center=true&vCenter=true&width=650&lines=Flutter+Developer;Cross-Platform+Mobile+Engineer;Firebase+%26+REST+API+Integrator;Building+useful+things%2C+one+commit+at+a+time" alt="Typing introduction" />
 </a>
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2400&pause=1100&color=77E2C5&background=101D2C&center=true&vCenter=true&width=680&height=72&lines=Flutter+Developer;Mobile+Application+Developer;Dart+Enthusiast;Problem+Solver"
-  alt="Flutter Developer · Mobile Application Developer · Dart Enthusiast · Problem Solver"
-/>
+
 <p>
-  <strong>Building Flutter apps from the first screen to the store release.</strong>
-  <br/>
-  Flutter Developer at Developer Bazaar Technologies · Indore, India
-</p><p>
-  <a href="https://prashant-s-portfolio-six.vercel.app/">Portfolio</a> ·
-  <a href="https://linkedin.com/in/prashantkushwaha0207">LinkedIn</a> ·
-  <a href="https://medium.com/@prashantkushwaha0207">Medium</a> ·
-  <a href="mailto:prashantkushwaha0207@gmail.com">Email</a>
-</p><img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="100%" alt="Animated illustration of a developer coding at a dual-monitor desk" /><p>
-  <a href="#featured-projects">Featured projects</a> ·
-  <a href="#engineering-toolkit">Engineering toolkit</a> ·
-  <a href="#packages-and-writing">Packages &amp; writing</a> ·
-  <a href="#github-activity">GitHub activity</a>
-</p></div>About me
-I build Android and iOS apps at Developer Bazaar Technologies. I started by turning Figma designs into Flutter screens at Rablo Software Limited. Today I work on what happens after a screen loads: a GPS marker moves, a payment returns, a session expires, or a traveller reopens an app with no connection.
-
-I use repositories to separate data access from UI state, Dio interceptors to handle token refresh, and Dart isolates for CPU-heavy work. When I found myself repeating the same setup across Flutter projects, I built Flutter Arc to generate it from the VS Code command palette.
-Featured projects
-🗺️ My Travel Kaki
-A travel app for Malaysia. I built the HTTP integration layer and offline caching so travellers could reopen previously loaded trip details. I also integrated the payment gateway and helped ship the Android and iOS releases.
-
-Flutter GetX HTTP MVC Offline caching Chhip
-
-Google Play · App Store
-📍 Sovangels
-A live location-tracking app. I built the GPS map, used reverse geocoding to turn coordinates into readable locations, and integrated push notifications. Dio handles network requests separately from the map UI.
-
-Flutter Google Maps Dio MVC Push notifications Firebase
-
-Google Play · App Store
-🛍️ Treeblazz
-A set of mobile apps supporting merchant and delivery operations. I worked on AeroPay payments and Firebase integrations that carry order updates between the people fulfilling the same order.
-
-Flutter Firebase Cloud Functions FCM AeroPay CI/CD
-
-Partner app on Google Play · Partner app on the App Store
-🧠 Sersi AI
-A pair of workforce apps for business owners and employees. I worked on mobile workflows for tasks, role-specific KPIs, time-off approvals, and AI-assisted staff training. The apps use BLoC for state, secure storage for sessions, and FCM for notifications.
-
-Flutter BLoC GoRouter REST APIs Secure Storage FCM
-
-View portfolio
-🧩 Flutter Arc
-A VS Code extension I built and published for starting Flutter projects. Give it a project name and it scaffolds routing, dependencies, and reusable UI components. It also rewrites template imports to match the new Dart package name.
-
-VS Code extension Flutter CLI Code generation Clean Architecture
-
-GitHub repository · Visual Studio Marketplace · Open VSX
-Engineering toolkit
-<p>
-  <img
-    src="https://skillicons.dev/icons?i=dart,flutter,firebase,git,github,androidstudio,vscode,figma&perline=8&theme=dark"
-    width="420"
-    alt="Dart, Flutter, Firebase, Git, GitHub, Android Studio, VS Code, and Figma"
-  />
-</p>Area	What I use
-Languages & mobile	Dart, JavaScript, Java, Flutter
-State & architecture	GetX, BLoC, Provider, repository pattern, Clean Architecture, MVC
-Networking & real time	Dio, HTTP, REST APIs, WebSockets, WebRTC
-Backend & cloud	Firebase Auth, Firestore, Realtime Database, Cloud Functions, FCM, Supabase
-Maps & authentication	Google Maps, GPS, geocoding, Google Sign-In, phone OTP, token refresh
-Payments & identity	Stripe, AeroPay, payment gateway SDKs, Veriff KYC
-Performance	Dart isolates and compute for CPU-intensive tasks
-Developer tooling	Mason CLI for reusable code-generation bricks, MCP for connecting AI tools to project context
-Build & release	CI/CD, Shorebird, signing, versioning, Google Play and App Store submissions
-Everyday tools	Git, GitHub, Android Studio, VS Code, Antigravity, Figma, Postman
-
-
-Packages and writing
-Published work	What you'll find
-Universal Week Calendar	A themeable Flutter week picker. You can browse next week without changing the date you selected. Source code
-Animation Countdown	An animated countdown widget with a controller you can use independently of your app's state-management library. Source code
-Flutter Isolates Explained	A practical guide to compute, isolate communication, and keeping the UI responsive.
-Mason Implementation Guide for Flutter	A walkthrough of turning repeated Flutter setup into a reusable Mason brick.
-
-
-Development journey
-Flutter Developer · Developer Bazaar Technologies
-July 2025–present · Indore, India
-I develop and release Flutter apps for Android and iOS. My work covers third-party payments, identity verification, API error handling, signing, and store submissions.
-
-Flutter Developer Intern · Rablo Software Limited
-December 2024–March 2025 · Lucknow, India
-I built responsive screens from Figma, connected Firebase sign-in and Firestore, and tested UI and API error states on Android devices.
-
-B.Tech in Computer Science Engineering
-Takshshila Institute of Engineering & Technology · Jabalpur · 2021–2025
-Currently exploring
-- Advanced Flutter architecture — keeping BLoC state consistent when several screens depend on the same API result.
-- On-device AI — processing camera frames with TensorFlow Lite in my emotion detection project.
-- React — applying component-based UI patterns in my public practice project.
-- Release automation & AI tooling — exploring GitHub Actions for CI/CD and MCP for connecting developer tools to project context.
-GitHub activity
-Public repositories	Stars on owned, non-fork repos	Contributions in the displayed year	Longest daily streak in that period
-26	18	7	1 day
-
-
-Snapshot taken 25 November 2026. The most frequent primary languages across my public, non-fork repositories were Dart (11 repositories), C++ (10), and TypeScript (1).
-<details>
-  <summary><strong>View my live contribution graph</strong></summary>  <p align="center">
-    <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=Prashant1125&theme=github-compact&hide_border=true"
-      width="96%"
-      alt="Recent GitHub contribution activity for Prashant1125"
-    />
-  </p>
-</details>
-Browse my repositories →
-Let's connect
-💼 LinkedIn ·
-💻 GitHub ·
-🌐 Portfolio ·
-✍️ Medium ·
-✉️ Email
-<p align="center">
-  <sub>Thanks for visiting — feel free to explore my repositories and projects.</sub>
+  <a href="https://github.com/Prashant1125"><img src="https://img.shields.io/badge/GitHub-Prashant1125-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
+  <a href="https://www.linkedin.com/in/prashant-kushwaha-4a014b243"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
+  <a href="mailto:prashantkushwaha0207@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Prashant" /></a>
 </p>
+
+**I build cross-platform mobile apps with Flutter, thoughtful architecture, and practical integrations.**
+
+[About](#-about-me) · [Skills](#-tech-stack) · [Projects](#-featured-work) · [Experience](#-experience) · [Packages](#-published-flutter-packages) · [Connect](#-lets-connect)
+
+</div>
+
+---
+
+## 👨‍💻 About Me
+
+I'm **Prashant Kushwaha**, a Flutter Developer focused on building reliable Android and iOS applications. I enjoy turning product requirements and designs into maintainable mobile experiences—from responsive UI and state management to API integration, Firebase services, payments, maps, testing, and store releases.
+
+- 📱 Building cross-platform applications with **Flutter and Dart**.
+- 🧩 Working with **GetX, Provider, MVC, and Clean Architecture**.
+- 🔌 Integrating REST APIs, Firebase, payment gateways, maps, and identity verification.
+- 🚀 Involved in the app delivery lifecycle, including debugging, release preparation, and deployment.
+- 🛠️ Interested in developer productivity, reusable components, and tools that reduce repetitive work.
+
+> I care about the details behind a good app: predictable state, resilient networking, clear architecture, and a smooth user experience.
+
+## 🧰 Tech Stack
+
+<div align="center">
+
+### Languages
+<img src="https://skillicons.dev/icons?i=dart,java,cpp,c,html" alt="Dart, Java, C++, C and HTML" />
+
+### Flutter & App Development
+<img src="https://skillicons.dev/icons?i=flutter,androidstudio,vscode,figma" alt="Flutter, Android Studio, VS Code and Figma" />
+
+### Backend, Data & Tools
+<img src="https://skillicons.dev/icons?i=firebase,git,github,postman" alt="Firebase, Git, GitHub and Postman" />
+
+</div>
+
+**Also worked with:** GetX · Provider · Dio · HTTP · Firebase Authentication · Cloud Firestore · Realtime Database · Cloud Functions · FCM · REST APIs · Google Maps · Google Places · Stripe · Chhip · Veriff · ImgBB API · MVC · Clean Architecture · Dependency Injection.
+
+## 🚀 Featured Work
+
+### 1. Sovangels
+A location-focused mobile application with live GPS updates and map-based experiences.
+
+- Implemented Google Maps and Google Places integrations.
+- Worked on real-time location tracking, geocoding/reverse geocoding, and push notifications.
+- Used Flutter, Dio, Firebase, and MVC architecture.
+
+[![App Store](https://img.shields.io/badge/Download_on_the-App_Store-000000?style=flat&logo=apple&logoColor=white)](https://apps.apple.com/fr/app/sovangels/id6766228494)
+
+### 2. My Travel Kaki
+A travel application built for the Malaysia market.
+
+- Developed Flutter app flows using MVC and GetX.
+- Integrated REST APIs and the Chhip payment gateway.
+- Worked on app delivery for Android and iOS.
+
+**Tech:** Flutter · Dart · GetX · HTTP · Chhip · MVC
+
+### 3. TreeBlazz Ecosystem
+A multi-app delivery ecosystem consisting of Store, Delivery Company, and Driver applications.
+
+- Built and maintained three Flutter applications.
+- Integrated Firebase Authentication, Cloud Firestore, Cloud Functions, and FCM.
+- Implemented merchant onboarding and approval workflows.
+- Worked on real-time order synchronization, notifications, and release deployment.
+
+<p>
+  <a href="https://play.google.com/store/apps/details?id=com.app.tb_store"><img src="https://img.shields.io/badge/TreeBlazz-Store-414141?style=flat&logo=googleplay&logoColor=white" alt="TreeBlazz Store" /></a>
+  <a href="https://play.google.com/store/apps/details?id=com.app.tb_delivery_company"><img src="https://img.shields.io/badge/TreeBlazz-Delivery-414141?style=flat&logo=googleplay&logoColor=white" alt="TreeBlazz Delivery" /></a>
+  <a href="https://play.google.com/store/apps/details?id=com.app.tb_driver"><img src="https://img.shields.io/badge/TreeBlazz-Driver-414141?style=flat&logo=googleplay&logoColor=white" alt="TreeBlazz Driver" /></a>
+</p>
+
+### 4. Nestify
+A room-rental application concept with listing discovery and search.
+
+- Implemented multi-image uploads and Google Sign-In.
+- Built real-time listings and filters for city, rent range, and search.
+- Used Firebase, Firebase Functions, GetX, and ImgBB API.
+
+**Repository:** Add the public repository URL here if it is available.
+
+### 5. Donor Pulse (Rakt-Daan)
+A blood donation platform connecting donors and recipients.
+
+- Built donor and recipient flows with Firebase Authentication and database services.
+- Implemented profile management and Firebase Storage integration.
+- Used GetX to organize application state and UI logic.
+
+**Repository:** Add the public repository URL here if it is available.
+
+### 6. Flutter Arc — Developer Tool
+A VS Code extension created to reduce repetitive Flutter project setup.
+
+- Scaffolds a Flutter project with reusable `core` and `data` layers.
+- Provides a BLoC-oriented starting architecture, routing, themes, and reusable UI components.
+- Published on the Visual Studio Marketplace and Open VSX.
+
+<p>
+  <a href="https://github.com/Prashant1125/flutter-arc"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=flat&logo=github&logoColor=white" alt="Flutter Arc source repository" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=PrashantKushwaha.flutter-arc"><img src="https://img.shields.io/badge/Install-VS%20Code%20Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="Flutter Arc on Visual Studio Marketplace" /></a>
+  <a href="https://open-vsx.org/extension/PrashantKushwaha/flutter-arc"><img src="https://img.shields.io/badge/Install-Open%20VSX-5B5B5B?style=flat" alt="Flutter Arc on Open VSX" /></a>
+</p>
+
+## 💼 Experience
+
+**Flutter Developer — Developer Bazaar Technologies**  
+*July 2025 – Present · Indore, India*
+
+- Develop and ship production Flutter applications for Android and iOS.
+- Integrate Firebase services, REST APIs, payment gateways, maps, and identity verification.
+- Build reusable widgets, optimize app performance, and support store releases.
+- Collaborate with backend, QA, and design teams in Agile workflows.
+
+**Flutter Developer Intern — Rablo Software Limited**  
+*December 2024 – March 2025 · Lucknow, India*
+
+- Developed responsive Flutter interfaces from Figma designs.
+- Integrated Firebase Authentication, Firestore, and REST APIs using Dio and HTTP.
+- Worked with GetX, Git workflows, code reviews, and device testing.
+
+## 📦 Published Flutter Packages
+
+<div align="center">
+
+<a href="https://pub.dev/packages/animation_countdown">
+  <img src="https://img.shields.io/pub/v/animation_countdown?label=animation_countdown&logo=dart&color=0175C2" alt="animation_countdown pub.dev version" />
+</a>
+<a href="https://pub.dev/packages/universal_week_calendar">
+  <img src="https://img.shields.io/pub/v/universal_week_calendar?label=universal_week_calendar&logo=dart&color=0175C2" alt="universal_week_calendar pub.dev version" />
+</a>
+
+</div>
+
+- **[animation_countdown](https://pub.dev/packages/animation_countdown):** A customizable animated countdown timer widget with a controller.
+- **[universal_week_calendar](https://pub.dev/packages/universal_week_calendar):** A customizable week calendar widget with date selection and week navigation.
+
+## 📊 GitHub Snapshot
+
+<div align="center">
+
+<a href="https://github.com/Prashant1125">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Prashant1125&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics for Prashant1125" />
+</a>
+<a href="https://github.com/Prashant1125">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prashant1125&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages on GitHub" />
+</a>
+
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=Prashant1125&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
+</a>
+
+</div>
+
+<sub>Stats are loaded from third-party services and may occasionally be unavailable or delayed.</sub>
+
+## 🌱 Currently Exploring
+
+- Advanced Flutter architecture and maintainable feature design.
+- React and modern web development.
+- AI integrations and AI-powered developer workflows.
+- Model Context Protocol (MCP) and developer tooling.
+- CI/CD automation with GitHub Actions.
+
+## 🎓 Education & Certification
+
+- **B.Tech, Computer Science** — Takshshila Institute of Engineering & Technology, 2021–2025.
+- **Flutter Developer Intern Certification** — Flutter Learn, Infosys Springboard.
+
+## 🤝 Let's Connect
+
+I'm always happy to connect with developers, exchange ideas, and discuss Flutter, mobile engineering, and developer tools.
+
+<div align="center">
+
+<a href="mailto:prashantkushwaha0207@gmail.com"><img src="https://img.shields.io/badge/Email-prashantkushwaha0207%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/prashant-kushwaha-4a014b243"><img src="https://img.shields.io/badge/LinkedIn-Prashant%20Kushwaha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/Prashant1125"><img src="https://img.shields.io/badge/GitHub-Prashant1125-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://medium.com/@prashantkushwaha0207"><img src="https://img.shields.io/badge/Medium-Read%20my%20articles-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+
+</div>
+
+<div align="center">
+  <img src="assets/footer.svg" alt="Thanks for visiting" width="100%" />
+  <br/>
+  <sub>Thanks for stopping by! ⭐ If something here interests you, feel free to explore the repositories.</sub>
+</div>
