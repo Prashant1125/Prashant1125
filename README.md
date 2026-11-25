@@ -6,7 +6,9 @@
 
 <div align="center">
 
-<img src="assets/hero.svg" alt="Prashant Kushwaha — Flutter Developer" width="100%" />
+<a href="https://prashant-s-portfolio-six.vercel.app/">
+  <img src="assets/hero.svg" alt="Prashant Kushwaha — Flutter Developer. Click to visit my portfolio." width="100%" />
+</a>
 
 <br/>
 
@@ -15,14 +17,14 @@
 </a>
 
 <p>
-  <a href="https://github.com/Prashant1125"><img src="https://img.shields.io/badge/GitHub-Prashant1125-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
-  <a href="https://www.linkedin.com/in/prashant-kushwaha-4a014b243"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
-  <a href="mailto:prashantkushwaha0207@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Prashant" /></a>
+  <a href="https://github.com/Prashant1125"><img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/prashant-kushwaha-4a014b243/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://medium.com/@prashantkushwaha0207"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+  <a href="https://prashant-s-portfolio-six.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:prashantkushwaha0207@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 **I build cross-platform mobile apps with Flutter, thoughtful architecture, and practical integrations.**
-
-[About](#-about-me) · [Skills](#-tech-stack) · [Projects](#-featured-work) · [Experience](#-experience) · [Packages](#-published-flutter-packages) · [Connect](#-lets-connect)
 
 </div>
 
@@ -45,7 +47,7 @@ I'm **Prashant Kushwaha**, a Flutter Developer focused on building reliable Andr
 <div align="center">
 
 ### Languages
-<img src="https://skillicons.dev/icons?i=dart,java,cpp,c,html" alt="Dart, Java, C++, C and HTML" />
+<img src="https://skillicons.dev/icons?i=dart,c,cpp,java,html" alt="Dart, C, C++, Java, and HTML" />
 
 ### Flutter & App Development
 <img src="https://skillicons.dev/icons?i=flutter,androidstudio,vscode,figma" alt="Flutter, Android Studio, VS Code and Figma" />
@@ -55,72 +57,74 @@ I'm **Prashant Kushwaha**, a Flutter Developer focused on building reliable Andr
 
 </div>
 
+
+
 **Also worked with:** GetX · Provider · Dio · HTTP · Firebase Authentication · Cloud Firestore · Realtime Database · Cloud Functions · FCM · REST APIs · Google Maps · Google Places · Stripe · Chhip · Veriff · ImgBB API · MVC · Clean Architecture · Dependency Injection.
 
 ## 🚀 Featured Work
 
 ### 1. Sovangels
-A location-focused mobile application with live GPS updates and map-based experiences.
 
-- Implemented Google Maps and Google Places integrations.
-- Worked on real-time location tracking, geocoding/reverse geocoding, and push notifications.
-- Used Flutter, Dio, Firebase, and MVC architecture.
+A live location-tracking app focused on GPS-based journeys and map experiences.
 
-[![App Store](https://img.shields.io/badge/Download_on_the-App_Store-000000?style=flat&logo=apple&logoColor=white)](https://apps.apple.com/fr/app/sovangels/id6766228494)
+- Built live GPS tracking and map interactions with Google Maps.
+- Used reverse geocoding to convert coordinates into readable locations.
+- Integrated push notifications and kept network handling separate with Dio.
+
+**Tech:** Flutter · Google Maps · Dio · MVC · Firebase · Push Notifications
+
+[Play Store](https://play.google.com/store/apps/details?id=com.app.sovangles) · [App Store](https://apps.apple.com/fr/app/sovangels/id6766228494)
 
 ### 2. My Travel Kaki
-A travel application built for the Malaysia market.
 
-- Developed Flutter app flows using MVC and GetX.
-- Integrated REST APIs and the Chhip payment gateway.
-- Worked on app delivery for Android and iOS.
+A travel app for Malaysia, with trip details designed to remain useful when connectivity is unreliable.
 
-**Tech:** Flutter · Dart · GetX · HTTP · Chhip · MVC
+- Built the HTTP integration layer and offline caching so travellers can reopen previously loaded trip details.
+- Integrated the payment gateway.
+- Contributed to Android and iOS release delivery.
 
-### 3. TreeBlazz Ecosystem
-A multi-app delivery ecosystem consisting of Store, Delivery Company, and Driver applications.
+**Tech:** Flutter · GetX · HTTP · MVC · Offline Caching · Payment Gateway
 
-- Built and maintained three Flutter applications.
-- Integrated Firebase Authentication, Cloud Firestore, Cloud Functions, and FCM.
-- Implemented merchant onboarding and approval workflows.
-- Worked on real-time order synchronization, notifications, and release deployment.
+[Play Store](https://play.google.com/store/apps/details?id=com.travel.my_travel_kaki_app) · [App Store](https://apps.apple.com/my/app/mytravelkaki-malaysia/id6758202740)
 
-<p>
-  <a href="https://play.google.com/store/apps/details?id=com.app.tb_store"><img src="https://img.shields.io/badge/TreeBlazz-Store-414141?style=flat&logo=googleplay&logoColor=white" alt="TreeBlazz Store" /></a>
-  <a href="https://play.google.com/store/apps/details?id=com.app.tb_delivery_company"><img src="https://img.shields.io/badge/TreeBlazz-Delivery-414141?style=flat&logo=googleplay&logoColor=white" alt="TreeBlazz Delivery" /></a>
-  <a href="https://play.google.com/store/apps/details?id=com.app.tb_driver"><img src="https://img.shields.io/badge/TreeBlazz-Driver-414141?style=flat&logo=googleplay&logoColor=white" alt="TreeBlazz Driver" /></a>
-</p>
+### 3. Sersi AI Ecosystem
 
-### 4. Nestify
-A room-rental application concept with listing discovery and search.
+A pair of workforce apps for business owners and employees, supporting day-to-day team operations and AI-assisted staff training.
 
-- Implemented multi-image uploads and Google Sign-In.
-- Built real-time listings and filters for city, rent range, and search.
-- Used Firebase, Firebase Functions, GetX, and ImgBB API.
+- Worked on task workflows and role-specific KPI views.
+- Implemented time-off approval flows.
+- Used BLoC for state management, GoRouter for navigation, secure storage for sessions, and FCM for notifications.
 
-**Repository:** Add the public repository URL here if it is available.
+**Tech:** Flutter · BLoC · GoRouter · REST APIs · Secure Storage · Firebase Cloud Messaging
 
-### 5. Donor Pulse (Rakt-Daan)
-A blood donation platform connecting donors and recipients.
+[Play Store](https://play.google.com/store/apps/details?id=com.sersiai.businessowner) · [App Store](https://apps.apple.com/us/app/sersi-ai-business-owner/id6802538243)
 
-- Built donor and recipient flows with Firebase Authentication and database services.
-- Implemented profile management and Firebase Storage integration.
-- Used GetX to organize application state and UI logic.
+### 4. Treeblazz Ecosystem
 
-**Repository:** Add the public repository URL here if it is available.
+A set of mobile apps supporting merchant, customer, delivery, and driver operations.
 
-### 6. Flutter Arc — Developer Tool
-A VS Code extension created to reduce repetitive Flutter project setup.
+- Worked across the merchant, customer, delivery, and driver apps.
+- Integrated AeroPay payments.
+- Connected real-time order updates through Firebase integrations.
 
-- Scaffolds a Flutter project with reusable `core` and `data` layers.
-- Provides a BLoC-oriented starting architecture, routing, themes, and reusable UI components.
-- Published on the Visual Studio Marketplace and Open VSX.
+**Tech:** Flutter · Firebase · Cloud Functions · FCM · AeroPay · CI/CD
 
-<p>
-  <a href="https://github.com/Prashant1125/flutter-arc"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=flat&logo=github&logoColor=white" alt="Flutter Arc source repository" /></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=PrashantKushwaha.flutter-arc"><img src="https://img.shields.io/badge/Install-VS%20Code%20Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="Flutter Arc on Visual Studio Marketplace" /></a>
-  <a href="https://open-vsx.org/extension/PrashantKushwaha/flutter-arc"><img src="https://img.shields.io/badge/Install-Open%20VSX-5B5B5B?style=flat" alt="Flutter Arc on Open VSX" /></a>
-</p>
+[Play Store](https://play.google.com/store/apps/details?id=com.app.tb_delivery_company&pcampaignid=web_share) · [App Store](https://apps.apple.com/us/developer/treeblazz-inc/id1895227920)
+
+---
+
+## ⚙️ Flutter engineering & developer tooling
+
+| What I work with | How I use it |
+| --- | --- |
+| **CI/CD** | Automate build and release steps for Flutter apps, including versioned builds for distribution. |
+| **Shorebird** | Create Flutter releases and deliver patches for eligible Dart code changes. |
+| **Mason CLI** | Turn recurring Flutter feature structures into reusable bricks for consistent code generation. |
+| **Dart isolates** | Move CPU-intensive work off the main isolate so the UI can keep responding during processing. |
+| **Model Context Protocol (MCP)** | Work with MCP tools that give AI-assisted development workflows access to project context and external tools. |
+| **GetX & BLoC** | Manage state across screens and keep business logic separate from widgets. |
+| **Dio & REST APIs** | Handle authentication, token refresh, multipart uploads, and network errors. |
+| **Mobile releases** | Manage signing, build numbers, release notes, and Android and iOS store submissions. |
 
 ## 💼 Experience
 
@@ -191,14 +195,13 @@ A VS Code extension created to reduce repetitive Flutter project setup.
 
 I'm always happy to connect with developers, exchange ideas, and discuss Flutter, mobile engineering, and developer tools.
 
-<div align="center">
-
-<a href="mailto:prashantkushwaha0207@gmail.com"><img src="https://img.shields.io/badge/Email-prashantkushwaha0207%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/prashant-kushwaha-4a014b243"><img src="https://img.shields.io/badge/LinkedIn-Prashant%20Kushwaha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/Prashant1125"><img src="https://img.shields.io/badge/GitHub-Prashant1125-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://medium.com/@prashantkushwaha0207"><img src="https://img.shields.io/badge/Medium-Read%20my%20articles-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-
-</div>
+<p align="center">
+  <img
+    src="https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif"
+    width="520"
+    alt="Animated pixel-art developer workspace"
+  />
+</p>
 
 <div align="center">
   <img src="assets/footer.svg" alt="Thanks for visiting" width="100%" />
