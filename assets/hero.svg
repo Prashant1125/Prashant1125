@@ -1,0 +1,39 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.52" stop-color="#111C32"/>
+      <stop offset="1" stop-color="#102D3A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="80" x2="1030" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55D6BE"/>
+      <stop offset="0.55" stop-color="#65A9FF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="340" rx="28" fill="url(#bg)"/>
+  <circle cx="1010" cy="65" r="150" fill="#55D6BE" opacity=".07"/>
+  <circle cx="170" cy="330" r="180" fill="#A78BFA" opacity=".08"/>
+  <path d="M0 270C210 210 330 345 560 270C790 195 980 220 1200 135" stroke="url(#accent)" stroke-width="2" opacity=".28"/>
+  <path d="M0 292C210 232 330 367 560 292C790 217 980 242 1200 157" stroke="url(#accent)" stroke-width="1" opacity=".18"/>
+  <g opacity=".45" stroke="#8CA3B8">
+    <path d="M900 0V340M980 0V340M1060 0V340M1140 0V340" stroke-dasharray="3 10"/>
+    <path d="M840 70H1200M840 130H1200M840 190H1200M840 250H1200" stroke-dasharray="3 10"/>
+  </g>
+  <g transform="translate(890 100)" filter="url(#glow)" opacity=".9">
+    <rect x="0" y="0" width="170" height="126" rx="18" stroke="url(#accent)" stroke-width="2" fill="#0B1220" fill-opacity=".55"/>
+    <path d="M24 40L48 63L24 86M70 86H118" stroke="#55D6BE" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="145" cy="24" r="5" fill="#A78BFA"/>
+  </g>
+  <text x="72" y="116" fill="#A9B8CC" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="5">HELLO, I'M</text>
+  <text x="68" y="184" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">PRASHANT</text>
+  <text x="72" y="228" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">Flutter Developer</text>
+  <text x="72" y="270" fill="#B8C5D6" font-family="Arial, Helvetica, sans-serif" font-size="17">Crafting cross-platform apps · Integrating real-world services · Shipping products</text>
+  <rect x="72" y="292" width="92" height="4" rx="2" fill="#55D6BE">
+    <animate attributeName="width" values="92;220;92" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

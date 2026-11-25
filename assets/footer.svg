@@ -1,0 +1,13 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0">
+      <stop stop-color="#55D6BE"/>
+      <stop offset=".5" stop-color="#65A9FF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 32C170 95 310 -5 490 40C670 85 810 12 970 38C1080 56 1140 45 1200 22" stroke="url(#line)" stroke-width="3" stroke-linecap="round" opacity=".8">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 32C170 95 310 -5 490 40C670 85 810 12 970 38C1080 56 1140 45 1200 22;M0 50C170 5 310 100 490 48C670 -5 810 90 970 42C1080 20 1140 62 1200 35;M0 32C170 95 310 -5 490 40C670 85 810 12 970 38C1080 56 1140 45 1200 22"/>
+  </path>
+  <text x="600" y="88" text-anchor="middle" fill="#8B9BB0" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3">BUILD · LEARN · SHIP · REPEAT</text>
+</svg>
